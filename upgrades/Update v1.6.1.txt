@@ -1,0 +1,7 @@
+Update v1.6.1
+
+**** Bugs fixed ****
+- The new fields added to the file 'shotpro.sql'
+
+
+* For future buyers, the old buyers should not replace anything

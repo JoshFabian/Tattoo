@@ -1,0 +1,14 @@
+Update v1.5
+
+**** Bugs fixed ****
+- Fixed error pagination Popular Designers
+- Fixed important error in payments
+
+***** Files Affected ***** 
+
+- / app / controllers / AjaxController.php
+- / app / controllers / JobsController.php
+- / app / controllers / AdvertisingController.php
+
+- / app / views / default / teams.blade.php
+- / app / views / default / designers.blade.php

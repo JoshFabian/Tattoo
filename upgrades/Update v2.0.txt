@@ -1,0 +1,51 @@
+Update v2.0
+
+**** Bugs fixed ****
+- Fixed bug with chat button disabled
+- Convert strings HTML in description project
+- Icon GIF in shots z-index -999 before in -9999
+- Bug in counter messages unread
+- 
+
+**** New ****
+- Add original image in the shots and best support in GIF image
+
+******************************************************
+***                   IMPORTANT                             ****
+******************************************************
+
+Login with account the admin and go this URL
+
+http://YOUSITE.com/upgrade/version20
+
+**** It is important because it adds to the database fields needed for this version
+
+** NOTE: Enter the URL mentioned above after climbing the 
+/ app / controllers / UpgradeController.php
+
+
+***** Files Affected ***** 
+
+- / app / views / layouts / master.blade.php
+
+- / app / views / shots / show.blade.php
+
+- / app / controllers / AdminController.php
+- / app / controllers / UpgradeController.php
+- / app / controllers / AjaxController.php
+- / app / controllers / ShotController.php
+- / app / controllers / UserController.php
+
+- / app / views / user / projects-show.blade.php
+- / app / views / user / messages.blade.php
+
+- / public / js / functions.js
+
+- /  public / css / main.css <----- Copy starting from Version 2.0 and find ".gif-shot" and change "z-index: 9999;" by "z-index: 999;" 
+
+
+***** Files New ***** 
+- / app / libraries / imagecraft  <---- Upload this folder
+
+Create folder called "original" inside the "public / shots_img /"
+

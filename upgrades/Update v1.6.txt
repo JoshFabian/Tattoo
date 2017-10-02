@@ -1,0 +1,72 @@
+Update v1.6
+
+**** Bugs fixed ****
+- Order Designers by ID ASC
+- Fixed bug XSS in Shots
+- Add class in shots links description
+- Setup smtp to mail
+- Fixed bug avatar url preview job
+- Fixed bug password team
+
+**** New ****
+- Teams Free
+- Allow ads
+- Allow jobs
+- Users Pro by default
+
+******************************************************
+***                   IMPORTANT                             ****
+******************************************************
+
+Login with account the admin and go this URL
+
+http://YOUSITE.com/upgrade/version16
+
+**** It is important because it adds to the database fields needed for this version
+
+** NOTE: Enter the URL mentioned above after climbing the 
+/ app / controllers / UpgradeController.php  file and 
+/ app / routes.php
+
+
+***** Files Affected ***** 
+
+- / app / routes.php
+
+- / app / lang / en / admin.php
+**** if you have modified files I added your modified file line after version 1.6 *****
+
+- / public / js / mentions_links.js
+
+- / app / views / shots / show.blade.php
+
+- / app / views / index / home.blade.php
+
+- / app / views / auth / join-team.blade.php
+- / app / views / auth / join.blade.php
+
+- / app / views / admin / settings.blade.php
+
+- / app / config / mail.php
+
+- / app / controllers / AjaxController.php
+- / app / controllers / JobsController.php
+- / app / controllers / UserController.php
+- / app / controllers / AdminController.php
+- / app / controllers / HomeController.php
+
+- / app / views / default / teams.blade.php
+- / app / views / default / designers.blade.php
+- / app / views / default / jobs-pay.blade.php
+- / app / views / default / jobs.blade.php
+- / app / views / default / upload.blade.php
+
+- / app / views / user / members.blade.php
+- / app / views / user / my-jobs.blade.php
+- / app / views / user / my-ads.blade.php
+
+- / app / views / includes / ads.blade.php
+- / app / views / includes / navbar.blade.php
+
+***** Files New ***** 
+- / app / controllers / UpgradeController.php

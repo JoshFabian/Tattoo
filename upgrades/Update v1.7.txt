@@ -1,0 +1,51 @@
+Update v1.7
+
+**** Bugs fixed ****
+- Url Password Update
+- Jobs delete payments
+- Text overflow in description and messages direct
+
+**** New ****
+- Add link direct page tags in shots
+- Add Google Adsense
+
+******************************************************
+***                   IMPORTANT                             ****
+******************************************************
+
+Login with account the admin and go this URL
+
+http://YOUSITE.com/upgrade/version17
+
+**** It is important because it adds to the database fields needed for this version
+
+** NOTE: Enter the URL mentioned above after climbing the 
+/ app / controllers / UpgradeController.php  file and 
+
+
+***** Files Affected ***** 
+
+- / app / routes.php
+
+- / app / views / shots / show.blade.php
+
+- / app / views / admin / sidebar_admin.blade.php
+
+- / app / controllers / AdminController.php
+- / app / controllers / UpgradeController.php
+
+- / app / views / default / jobs.blade.php
+- / app / views / default / upload.blade.php
+
+- / app / views / user / password.blade.php
+- / app / views / user / messages.blade.php
+- / app / views / user / messages-show.blade.php
+
+- / app / views / includes / ads.blade.php
+
+- / app / helpers / Helper.blade.php
+
+***** Files New ***** 
+- / app / views / includes / ads_google.blade.php
+- / app / views / admin / google-adsense.blade.php
+

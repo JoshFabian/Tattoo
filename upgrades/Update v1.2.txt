@@ -1,0 +1,19 @@
+Update v1.2
+
+* Bugs fixed
+- Url Slug page edit
+- Duplicate Tags
+- Important Bug in Ads Activation
+
+* New
+- See number of messages unread
+
+* Files Affected
+- / app / controllers / AdminController
+- / app / controllers / AdvertisingController.php
+- / app / controllers / AjaxController.php
+- / app / controllers / ShotController.php
+
+- / app / views / user / messages.blade.php
+- / app / views / user / edit-ad.blade.php
+- / app / views / user / activate-ad.blade.php

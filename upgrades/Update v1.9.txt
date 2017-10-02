@@ -1,0 +1,26 @@
+Update v1.9
+
+***************************************
+*              Bugs fixed                       *
+***************************************
+- Fixed bug total likes in shot
+- Fixed big overflow in Bio and projects description
+- Fixed minor bug in HomeController.php
+- Fixed bug in tags URL
+- Fixed bug in Autocomplete mentions
+- Username bug email notification
+- Fixed bug in Password Subject missing
+
+
+*****************************************
+*                  Files Affected                *
+*****************************************
+- / app / controllers / AjaxController
+- / app / controllers /  HomeController.php
+- / app / controllers / UserController.php
+
+- / app / views / user / profile.blade.php
+- / app / views / user / project-show.blade.php
+
+- / app / views / shots / likes.blade.php
+- / app / views / shots / show.blade.php

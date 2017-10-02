@@ -1,0 +1,32 @@
+Update v1.4
+
+**** Bugs fixed ****
+- Fixed error transcription Class TeamMember
+- Bug pagination page Goods profile user
+- Fixed error adding teams as admin
+- Add string new "Join now is free"
+
+**** New ****
+- Added page tags
+
+***** Files Affected ***** 
+
+- / app / routes.php
+
+- / app / controllers / HomeController.php
+- / app / controllers / UserController.php
+
+- / app / views / user / goods.blade.php
+
+- / app / views / admin / edit-member.blade.php
+
+- / app / lang / en / misc.php
+**** if you have modified files I added your modified file line after version 1.4 *****
+
+- / app / views / index / home.blade.php
+
+- / app / views / includes / navbar.blade.php
+
+***** Files News ***** 
+- / app / views / default / tags.blade.php
+- / app / views / default / tags-show.blade.php

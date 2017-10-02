@@ -1,0 +1,83 @@
+Update v1.8
+
+**** Bugs fixed ****
+- CSS bug in Projects
+- Overflow description project
+- Limit characters in location in page designers/ followers, ect.
+- Bug in notifications
+
+**** New ****
+- Manage Comments from Admin Panel
+- The admin can allow users will not "PRO" could comment
+- See all likes in Shot
+- See all likes in Comment
+- The user can choose to upload a cropped or a full size image
+- Added new currencies
+- Aggregates filters: All time, Week, Month and Year
+
+******************************************************
+***                   IMPORTANT                             ****
+******************************************************
+
+Login with account the admin and go this URL
+
+http://YOUSITE.com/upgrade/version18
+
+**** It is important because it adds to the database fields needed for this version
+
+** NOTE: Enter the URL mentioned above after climbing the 
+/ app / controllers / UpgradeController.php
+
+
+***** Files Affected ***** 
+
+- / app / routes.php
+
+- / app / views / shots / show.blade.php
+
+- / app / views / admin / sidebar_admin.blade.php
+- / app / views / admin / ads.blade.php
+- / app / views / admin / projects.blade.php
+- / app / views / admin / payments-settings.blade.php
+- / app / views / admin / settings.blade.php
+
+- / app / controllers / AdminController.php
+- / app / controllers / UpgradeController.php
+- / app / controllers / AjaxController.php
+- / app / controllers / ShotController.php
+- / app / controllers / HomeController.php
+- / app / controllers / UserController.php
+- / app / controllers / CommentsController.php
+
+- / app / models / Like.php
+- / app / models / CommentsLikes.php
+
+- / app / views / default / upload.blade.php
+
+- / app / views / user / projects-show.blade.php
+- / app / views / user / messages.blade.php
+- / app / views / user / messages-show.blade.php
+
+- / app / views / includes / projects-view.blade.php
+- / app / views / includes / users-list.blade.php
+- / app / views / includes / nav-pills.blade.php
+- / app / views / includes / shots.blade.php
+
+- /  public / css / main.css <----- Copy starting from Version 1.8
+
+- / app / lang / en / admin.php
+- / app / lang / en / misc.php
+
+[NOTE]:
+If you have changed some of the language files, copy the text strings from where it says:
+/*
+|------------------------------------
+| Version 1.8
+|------------------------------------
+|
+*/
+
+***** Files New ***** 
+- / app / views / shots / likes.blade.php
+- / app / views / admin / comments.blade.php
+

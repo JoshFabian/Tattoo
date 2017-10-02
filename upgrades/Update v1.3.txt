@@ -1,0 +1,36 @@
+Update v1.3
+
+**** Bugs fixed ****
+- Utf8MB table members
+- Lang Bug in Ads Panel Admin
+- Slashes xss title site
+- Activate/Renew Job
+- Ads Activation
+
+**** New ****
+- Goods section from user profile
+- Add null bytes in Encrypter
+
+***** Files Affected ***** 
+- / app / routes.php
+
+- vendor / laravel / framework / src / Illuminate / Encryption / Encrypter.php
+
+- / app / controllers / AdvertisingController.php
+- / app / controllers / JobsController.php
+- / app / controllers / UserController.php
+
+- / app / views / user / messages.blade.php
+- / app / views / user / payment-ad.blade.php
+- / app / views / user / activate-ad.blade.php
+- / app / views / user / my-jobs.blade.php
+
+- / app / views / admin / ads.blade.php
+
+- / app / views / layouts / master.blade.php
+
+- / app / views / includes / menu-user.blade.php
+
+***** Files News ***** 
+- / app / views / user / goods.blade.php
+- / app / views / default / activate-job.blade.php
